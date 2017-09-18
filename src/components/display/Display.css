@@ -1,0 +1,16 @@
+
+.Display {
+    width: 100%;
+    min-height: 200px;
+    background: #BBB;
+}
+
+.img-box {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: -0.5rem;
+}
+
+img {
+    width: 100%;
+}

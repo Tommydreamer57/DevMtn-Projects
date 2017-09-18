@@ -1,0 +1,51 @@
+
+.NavList {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 20%;
+  background: #111;
+  border-right: 0.5px solid #000;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  max-width: 20%;
+}
+
+.NavItem {
+    display: block;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    background: #DDD;
+    border-bottom: 0.5px solid #000;
+    text-align: left;
+    cursor: pointer;
+    font-family: calibri;
+}
+
+.nav-header {
+    background: #666;
+    color: #FFF;
+    font-weight: bold;
+    padding-left: 1.2rem;
+}
+
+.sublist-item {
+    padding: 0.25rem;
+    padding-left: 3rem;
+}
+
+.description {
+    padding: 0.5rem 0.25rem;
+    background: #E7E7E7;
+}
+
+.description-header {
+    cursor: auto;
+}

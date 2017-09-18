@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
