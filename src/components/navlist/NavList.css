@@ -5,7 +5,7 @@
   left: 0;
   bottom: 0;
   height: 100vh;
-  width: 20%;
+  width: 200px;
   background: #111;
   border-right: 0.5px solid #000;
 }
@@ -15,37 +15,47 @@
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
-  max-width: 20%;
+  max-width: 200px;
 }
 
 .NavItem {
-    display: block;
-    padding: 0.5rem;
-    padding-left: 2rem;
-    background: #DDD;
-    border-bottom: 0.5px solid #000;
-    text-align: left;
-    cursor: pointer;
-    font-family: calibri;
+  display: block;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  background: #DDD;
+  border-bottom: 0.5px solid #000;
+  text-align: left;
+  cursor: pointer;
+  font-family: calibri;
+  z-index: 100;    
 }
 
 .nav-header {
-    background: #666;
-    color: #FFF;
-    font-weight: bold;
-    padding-left: 1.2rem;
+  background: #666;
+  color: #FFF;
+  font-weight: bold;
+  padding-left: 1.2rem;
+  z-index: 100;    
 }
 
 .sublist-item {
-    padding: 0.25rem;
-    padding-left: 3rem;
+  padding: 0.25rem;
+  padding-left: 3rem;
+  z-index: 100;    
+}
+
+.dexcription-list {
+  z-index: 100;
 }
 
 .description {
-    padding: 0.5rem 0.25rem;
-    background: #E7E7E7;
+  padding: 0.5rem 0.25rem;
+  background: #E7E7E7;
+  z-index: 100;
+    
 }
 
 .description-header {
-    cursor: auto;
+  cursor: auto;
+  z-index: 100;
 }
