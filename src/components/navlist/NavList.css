@@ -15,7 +15,8 @@
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
-  max-width: 200px;
+  width: 200px;
+  max-width: 85vw;
   background: #DDD;
   z-index: 99;
 }
@@ -29,7 +30,7 @@
   text-align: left;
   cursor: pointer;
   font-family: calibri;
-  z-index: 100;    
+  z-index: 100;
 }
 
 .nav-header {
@@ -53,8 +54,8 @@
 .description {
   padding: 0.5rem 0.25rem;
   background: #E7E7E7;
+  text-align: left;
   z-index: 100;
-    
 }
 
 .description-header {

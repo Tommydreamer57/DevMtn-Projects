@@ -26,6 +26,7 @@ export default class NavList extends Component {
                                 return <NavItem className="NavItem" itemName={item} key={i} selectItem={this.props.selectItem} />
                             })
                         }
+                        <NavItem className="NavItem" itemName="Add New Reptile" selectItem={this.props.selectItem} />
                         <NavDescription description={this.props.description} selectedItem={this.props.selectedItem} />
                     </ul>
                 </div>
